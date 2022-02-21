@@ -8,7 +8,7 @@ export default function Home() {
         <title>Portfolio | Home</title>
       </Head>
       {/* Mian container */}
-      <div className="flex flex-col">
+      <div className="flex flex-col bg-gradient-to-r from-purple-500 to-pink-500">
         {/* Header */}
         <div className="flex w-3/11">
           {/* Left side Header */}
@@ -28,10 +28,10 @@ export default function Home() {
           </div>
         </div>
         {/* recent Posts */}
-        {/* Main container */}
-        <div className="flex flex-col m-4 bg-blue-100 p-11">
+        {/* Wrapper container */}
+        <div className="flex flex-col p-24 bg-blue-100">
           {/* Title */}
-          <p className="text-xl">Recent posts</p>
+          <p className="py-4 text-xl">Recent posts</p>
           {/* Cards */}
           <div className="flex items-center justify-center gap-6 align-middle">
             {/* Card 1 */}
@@ -68,6 +68,7 @@ export default function Home() {
         </div>
         {/* Featured works */}
         <div className="flex m-4 p-11 w-6/11">Featured Work</div>
+        <div className=""></div>
       </div>
     </>
   );
