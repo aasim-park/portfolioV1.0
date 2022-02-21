@@ -8,7 +8,7 @@ export default function Home() {
         <title>Portfolio | Home</title>
       </Head>
       {/* Mian container */}
-      <div className="flex flex-col bg-gradient-to-r from-purple-500 to-pink-500">
+      <div className="flex flex-col">
         {/* Header */}
         <div className="flex w-3/11">
           {/* Left side Header */}
