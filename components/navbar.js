@@ -8,7 +8,7 @@ const NavBar = () => {
         <a className="text-2xl">Logo</a>
       </div>
       {/* right side navigation bar */}
-      <div className="flex justify-end w-4/5 gap-10 pr-8 m-4">
+      <div className="flex justify-end w-4/5 gap-10 pr-16 m-4">
         <Link href="/">
           <a>Home</a>
         </Link>
