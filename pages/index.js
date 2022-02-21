@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,20 +8,24 @@ export default function Home() {
       <Head>
         <title>Portfolio | Home</title>
       </Head>
-      {/* Mian container */}
+      {/* Main container */}
       <div className="flex flex-col">
-        {/* Header */}
+        {/* Head */}
         <div className="flex w-3/11">
           {/* Left side Header */}
           <div className="flex flex-col w-3/5 m-2 p-28 sd:w-1/5">
-            <span className="text-5xl">
+            <span className="text-5xl font-bold">
               Hi, I am <a className="underline decoration-indigo-500">Aasim</a>,
             </span>
             <span className="py-3 text-4xl">Web Developer.</span>
             <p className="text-lg">wanna collobarate click on below button:</p>
-            <button className="w-32 px-4 py-2 mt-3 font-bold text-white border border-blue-700 rounded bg-rose-500 hover:bg-rose-300">
-              Button
-            </button>
+            <Link href="/public/Resume.pdf" download="/public/Resume.pdf">
+              <a>
+                <button className="w-40 px-2 py-2 mt-3 font-bold text-white border border-red-700 rounded bg-rose-500 hover:bg-rose-600">
+                  Download Resume
+                </button>
+              </a>
+            </Link>
           </div>
           {/* Right side of Header */}
           <div className="flex flex-col items-start justify-center w-2/5 m-2">

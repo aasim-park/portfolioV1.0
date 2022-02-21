@@ -7,7 +7,7 @@ const Blog = () => {
         <title>Portfolio | Blog</title>
       </Head>
       {/* Wrapper container */}
-      <div className="flex flex-col gap-10 p-20 m-24">
+      <div className="flex flex-col gap-10 px-10 py-10 m-20">
         {/* Title-Blog */}
         <div>
           <p className="font-bold text-7xl">Blog</p>
