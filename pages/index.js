@@ -42,7 +42,7 @@ export default function Home() {
           {/* Title */}
           <p className="py-4 text-xl">Recent posts</p>
           {/* Cards */}
-          <div className="flex items-center gap-6 align-middle ustify-center">
+          <div className="flex gap-6">
             {/* Card 1 */}
             <div className="bg-white rounded shadow">
               <div className="p-5 text-justify ">
