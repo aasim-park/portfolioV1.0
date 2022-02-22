@@ -7,13 +7,17 @@ export default function Home() {
     <>
       <Head>
         <title>Portfolio | Home</title>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
       </Head>
       {/* Main container */}
-      <div className="flex flex-col">
+      <div className="flex flex-col flex-wrap ">
         {/* Head */}
-        <div className="flex w-3/11">
+        <div className="flex flex-wrap-reverse justify-center gap-10 text-center lg:text-left w-max lg:w-auto lg:flex-nowrap">
           {/* Left side Header */}
-          <div className="flex flex-col w-3/5 m-2 p-28 sd:w-1/5">
+          <div className="flex flex-col w-3/5 gap-3 mt-4 lg:m-2 lg:p-28">
             <span className="text-5xl font-bold">
               Hi, I am <a className="underline decoration-indigo-500">Aasim</a>,
             </span>
@@ -34,14 +38,14 @@ export default function Home() {
         </div>
         {/* recent Posts */}
         {/* Wrapper container */}
-        <div className="flex flex-col p-24 bg-blue-100">
+        <div className="flex flex-col mt-10 bg-blue-100 lg:p-24">
           {/* Title */}
           <p className="py-4 text-xl">Recent posts</p>
           {/* Cards */}
-          <div className="flex items-center justify-center gap-6 align-middle">
+          <div className="flex items-center gap-6 align-middle ustify-center">
             {/* Card 1 */}
             <div className="bg-white rounded shadow">
-              <div className="p-5 text-justify">
+              <div className="p-5 text-justify ">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industrys standard dummy text
                 ever since the 1500s, when an unknown printer took a galley of
@@ -72,7 +76,7 @@ export default function Home() {
           </div>
         </div>
         {/* Featured works */}
-        <div className="flex m-4 p-11 w-6/11">Featured Work</div>
+        <div className="flex m-4 p-11">Featured Work</div>
         <div className=""></div>
       </div>
     </>
