@@ -6,7 +6,7 @@ const Contact = () => {
       <Head>
         <title>Portfolio | Contact</title>
       </Head>
-      <div className="flex flex-col gap-3 ml-8 mr-3">
+      <div className="flex flex-col gap-3 ml-8 mr-3 lg:translate-x-24 lg:mt-10">
         <p className="font-bold">Contacts</p>
         <p>
           Hello this is Aasim.{" "}
