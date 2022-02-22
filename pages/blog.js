@@ -5,10 +5,6 @@ const Blog = () => {
     <>
       <Head>
         <title>Portfolio | Blog</title>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
       </Head>
       {/* Wrapper container */}
       <div className="flex flex-col gap-10 px-10 py-10 m-20">

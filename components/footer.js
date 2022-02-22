@@ -5,12 +5,7 @@ import Head from "next/head";
 const Footer = () => {
   return (
     <>
-      <Head>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
-      </Head>
+      <Head></Head>
       <footer className="flex flex-col">
         {/* Icons */}
         <div className="flex justify-center pt-3 gap-7">

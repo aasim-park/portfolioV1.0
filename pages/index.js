@@ -7,21 +7,17 @@ export default function Home() {
     <>
       <Head>
         <title>Portfolio | Home</title>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
       </Head>
       {/* Main container */}
-      <div className="flex flex-col flex-wrap ">
+      <div className="flex flex-col flex-wrap overflow-hidden">
         {/* Head */}
-        <div className="flex flex-wrap-reverse justify-center gap-10 text-center lg:text-left w-max lg:w-auto lg:flex-nowrap">
+        <div className="flex flex-wrap-reverse gap-10 p-2 m-4 lg:flex-nowrap">
           {/* Left side Header */}
-          <div className="flex flex-col w-3/5 gap-3 mt-4 lg:m-2 lg:p-28">
-            <span className="text-5xl font-bold">
+          <div className="flex flex-col justify-center w-full gap-1 text-center lg:text-left lg:w-3/5 lg:translate-x-20 lg:gap-3">
+            <span className="text-4xl font-bold lg:text-5xl">
               Hi, I am <a className="underline decoration-indigo-500">Aasim</a>,
             </span>
-            <span className="py-3 text-4xl">Web Developer.</span>
+            <span className="py-3 text-3xl lg:text-4xl">Web Developer.</span>
             <p className="text-lg">wanna collobarate click on below button:</p>
             <Link href="/public/Resume.pdf" download="/public/Resume.pdf">
               <a>
@@ -32,8 +28,8 @@ export default function Home() {
             </Link>
           </div>
           {/* Right side of Header */}
-          <div className="flex flex-col items-start justify-center w-2/5 m-2">
-            <div className="w-64 h-64 rounded-full object-cover bg-yellow-200 drop-shadow layout=fill"></div>
+          <div className="flex w-2/5 m-2 translate-x-20 lg:items-center lg:justify-center">
+            <div className="w-32 h-32 lg:w-64 lg:h-64 rounded-full object-cover bg-yellow-200 drop-shadow layout=fill"></div>
           </div>
         </div>
         {/* recent Posts */}
