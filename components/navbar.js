@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav className="flex flex-row">
       {/* Logo */}
-      <div className="flex w-1/5 h-8 px-20 m-4">
+      <div className="flex w-1/5 px-20 m-4">
         <Link href="/">
           <a>
             <GiTunisia className="w-11 h-11" />
