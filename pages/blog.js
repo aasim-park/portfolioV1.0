@@ -7,10 +7,10 @@ const Blog = () => {
         <title>Portfolio | Blog</title>
       </Head>
       {/* Wrapper container */}
-      <div className="flex flex-col gap-10 px-10 py-10 m-20">
+      <div className="flex flex-col gap-10 px-10 mt-14 lg:py-10 lg:m-20">
         {/* Title-Blog */}
         <div>
-          <p className="font-bold text-7xl">Blog</p>
+          <p className="text-5xl font-bold lg:text-7xl">Blog</p>
         </div>
         {/* Lists */}
         <div className="flex flex-col gap-24">

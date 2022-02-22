@@ -5,7 +5,11 @@ const Hero = () => {
         {/* Left side Header */}
         <div className="flex flex-col justify-center w-full gap-1 text-center lg:text-left lg:w-3/5 lg:translate-x-20 lg:gap-3">
           <span className="text-4xl font-bold lg:text-5xl">
-            Hi, I am <a className="underline decoration-indigo-500">Aasim</a>,
+            Hi, I am{" "}
+            <a className="underline decoration-4 decoration-indigo-500">
+              Aasim
+            </a>
+            ,
           </span>
           <span className="py-3 text-3xl lg:text-4xl">Web Developer.</span>
           <p className="text-lg">wanna collobarate click on below button:</p>
