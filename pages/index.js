@@ -19,13 +19,13 @@ export default function Home() {
             </span>
             <span className="py-3 text-3xl lg:text-4xl">Web Developer.</span>
             <p className="text-lg">wanna collobarate click on below button:</p>
-            <Link href="/public/Resume.pdf" download="/public/Resume.pdf">
+            <a href="/public/Resume.pdf" download="Resume.pdf">
               <a>
                 <button className="w-40 px-2 py-2 mt-3 font-bold text-white border border-red-700 rounded bg-rose-500 hover:bg-rose-600">
                   Download Resume
                 </button>
               </a>
-            </Link>
+            </a>
           </div>
           {/* Right side of Header */}
           <div className="flex w-2/5 m-2 translate-x-20 lg:items-center lg:justify-center">
