@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Ampligram } from "./ui-components";
 
 const Projects = () => {
   return (
@@ -6,6 +7,7 @@ const Projects = () => {
       <Head>
         <title>Portfolio | Projects</title>
       </Head>
+      <Ampligram />
       <div>
         <p>Here are some of my projects</p>
       </div>
