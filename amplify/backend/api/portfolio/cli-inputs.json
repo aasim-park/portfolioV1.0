@@ -3,10 +3,21 @@
   "serviceConfiguration": {
     "apiName": "portfolio",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "/home/aasim/Documents/portfolio/amplify/backend/api/portfolio/schema.graphql",
+    "gqlSchemaPath": "/tmp/amplify-a73232c2-a5f1-4cd8-9c63-372d8409e9f5/amplify/backend/api/portfolio/schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "expirationTime": 7
-    }
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ]
   }
 }
