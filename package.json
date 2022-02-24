@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "amplify": "^0.0.11",
+    "aws": "^0.0.3-2",
     "aws-amplify": "^4.3.14",
     "next": "12.1.0",
     "react": "17.0.2",
